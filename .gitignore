@@ -1,0 +1,9 @@
+# Ignore compiled files
+bin/
+out/
+/lib
+*.class
+
+# IntelliJ
+.idea/
+*.iml
