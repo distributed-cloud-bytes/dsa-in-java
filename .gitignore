@@ -1,7 +1,7 @@
 # Ignore compiled files
 bin/
 out/
-/lib
+lib/
 *.class
 
 # IntelliJ
