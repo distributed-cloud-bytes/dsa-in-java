@@ -1,39 +1,43 @@
-HELP.md
+# General
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Maven
 target/
-.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+.mvn/wrapper/maven-wrapper.jar
 
-### STS ###
-.apt_generated
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Compiled files
+bin/
+out/
+*.class
+
+# Build directories
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE-specific files (optional, remove if not needed)
 .classpath
-.factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-# Ignore compiled files
-bin/
-out/
-lib/
-*.class
