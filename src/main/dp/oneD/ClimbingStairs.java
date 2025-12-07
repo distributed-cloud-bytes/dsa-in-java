@@ -1,4 +1,4 @@
-package com.dsa.dp.oneD;
+package dp.oneD;
 
 public class ClimbingStairs {
     private static int n = 5;

@@ -1,4 +1,4 @@
-package com.dsa.dp.oneD;
+package dp.oneD;
 
 import java.util.HashMap;
 import java.util.Map;

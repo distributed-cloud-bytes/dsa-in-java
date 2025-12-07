@@ -1,4 +1,4 @@
-package com.dsa.dp;
+package dp;
 
 public class RegularExpressionMatching {
     public static void main(String[] args) {
